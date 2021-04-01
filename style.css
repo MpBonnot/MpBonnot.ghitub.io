@@ -1,6 +1,93 @@
-body {
-    margin:0;
+@font-face {
+    font-family: Fjalla;
+    src: url("FjallaOne-Regular.ttf") format("opentype");
 }
+
+body {
+    font-family: Fjalla, helvetica, arial, sans-serif;
+}
+
+.welcome {
+    background-color: #e85a4f;
+    color:#e98074;
+    font-size: 1900%;
+    width: 100%;
+    height:40%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+.welcome:hover {
+font-size: 2500%;
+}
+
+.To{
+    background-color: #e98074;
+    color:#d8c3a5;
+    font-size: 2000%;
+    width: 100%;
+    height:40%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;  
+}
+
+.To:hover {
+    font-size: 2500%;
+    }
+
+.stuff{
+    background-color:#d8c3a5;
+    color: #eae7dc;
+    font-size: 2200%;
+    width: 100%;
+    height: 40%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;  
+}
+
+.stuff:hover {
+    font-size: 2500%;
+    }
+
+
+.lab {
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+.class {
+    display: flex;
+    border: solid; white; 
+    border-width: 0.1rem; 
+    border-radius: 1.5rem;
+    border-color:#e85a4f;  
+    color:#e85a4f;
+    font-size: 1000%;
+    width: 20%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    max-width: 100%;
+    float:left;
+  
+
+}
+
+.projects {
+    background-color: #e98074;;
+    width: 80%;
+}
+
+
 
 ul{
     list-style-type:none;
@@ -8,25 +95,23 @@ ul{
 
 
 .home {
-    width: 100%;
-    height: 100%;
-    background: lightpink;
-    padding: 20px;
+    background:#eae7dc;
 
-}
-
-.headline {
-    font-size: 5rem;
-    font-family: sans-serif;
-    color: limegreen;
 }
 
 .nav-links {
-    color: black;
-    font-size: 50px;
+    color: #eae7dc;
+    font-size: 80px;
     text-decoration: none;
 }
 
-.logo {
-    width: 300px;
-}
+a:hover {
+    border: solid #eae7dc;
+    border-radius: 20px;
+    padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+
+
