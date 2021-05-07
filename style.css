@@ -5,6 +5,8 @@
 
 body {
     font-family: Fjalla, helvetica, arial, sans-serif;
+    background-color: #eae7dc;
+  
 }
 
 .welcome {
@@ -53,22 +55,26 @@ font-size: 2500%;
     }
 
 
+   
+
 .lab {
     display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 1rem;
   max-width: 100%;
+  background-color: #eae7dc;
+  
 }
 
-.class {
+.section1{
     display: flex;
-    border: solid; white; 
+    border: solid white; 
     border-width: 0.1rem; 
     border-radius: 1.5rem;
     border-color:#e85a4f;  
     color:#e85a4f;
-    font-size: 1000%;
+    font-size: 700%;
     width: 20%;
     margin: 0 auto;
     padding: 1rem;
@@ -113,5 +119,32 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   }
+
+
+  .section2{
+    display: flex;
+    border-width: 0.1rem; 
+    border-radius: 1.5rem;
+    border:solid 1px #e85a4f;  
+    color:#e85a4f;
+    font-size: 700%;
+    width: 20%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    max-width: 100%;
+    float:left;
+   
+
+}
+
+.projects2 {
+    background-color: #e85a4f;
+    width: 80%;
+}
+
 
 
